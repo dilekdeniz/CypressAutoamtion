@@ -22,22 +22,21 @@ describe('contesxt:My First Tests',()=>{
    // click();
    // cy.get('.list-group > :nth-child(1)').click();
     })
-    //open Cypress| Set"only"
+  
     it.skip('Test 2',()=>{
         expect(false).to.equal(false);
 
     })
-     //open Cypress| Set"only"
+   
      it('Test 3',()=>{
         expect(false).not.to.equal(true);
      })
-      //open Cypress| Set"only"
+  
     it('Test 4',()=>{
         expect(5).to.equal(5);
     })
-     //open Cypress| Set"only"
      it('Test 5',()=>{
-        expect(true).to.equal('5'==5);
+        expect(false).to.equal('5'==5);
      })
 
 })
